@@ -8,5 +8,5 @@ jobs:
       script: echo "Building.........."
     - stage: test
       script: echo "Testing..........."
-#     - stage: deploy
+    - stage: deploy
     - script: echo "Deploying........."
