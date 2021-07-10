@@ -6,16 +6,16 @@ jobs:
   include:
     - stage: build
       script: echo "Building.........."
-      script: "Building first artifacts.........."
-      script: "Building second artifacts........."
-      script: "Building third artifacts.........."
+      script: echo "Building first artifacts.........."
+      script: echo "Building second artifacts........."
+      script: echo "Building third artifacts.........."
     - stage: test
       script: echo "Testing..........."
-      script: "Testing first artifacts.........."
-      script: "Testing second artifacts........."
-      script: "Testing third artifacts.........."
+      script: echo "Testing first artifacts.........."
+      script: echo "Testing second artifacts........."
+      script: echo "Testing third artifacts.........."
     - stage: deploy
       script: echo "Deploying........."
-      script: "Deploying first artifacts.........."
-      script: "Deploying second artifacts........."
-      script: "Deploying third artifacts.........."
+      script: echo "Deploying first artifacts.........."
+      script: echo "Deploying second artifacts........."
+      script: echo "Deploying third artifacts.........."
