@@ -8,6 +8,7 @@ jobs:
     - name: "stage naming"
       script: echo "Building first artifacts.........."
     - script: echo "Building second artifacts........."
+      name: "stage building second artifacts"
     - script: eecho "Building third artifacts.........."
     - stage: test
       script: echo "Testing..........."
