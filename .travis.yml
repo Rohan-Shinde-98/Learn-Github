@@ -5,7 +5,7 @@ language: bash
 jobs:
   include:
     - stage: build
-    - name: "stage naming"
+      name: "stage naming"
       script: echo "Building first artifacts.........."
     - script: echo "Building second artifacts........."
       name: "stage building second artifacts"
