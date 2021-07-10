@@ -4,6 +4,9 @@ arch: s390x
 language: bash
 jobs:
   include:
-    - script: echo "Hello World!"
+    - stage: build
+      script: echo "Building.........."
+    - stage: test
+      script: echo "Testing..........."
     - stage: deploy
-      script: echo "from hello stage"
+      script: echo "Deploying........."
