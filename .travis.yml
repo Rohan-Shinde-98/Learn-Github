@@ -5,3 +5,5 @@ language: bash
 jobs:
   include:
     script: echo "Hello World!"
+    stage: deploy
+    script: "from hello stage"
